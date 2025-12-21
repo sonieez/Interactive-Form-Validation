@@ -1,0 +1,80 @@
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+.container{
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  width: 260px;
+  border-radius: 5px;
+
+}
+
+p{
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input{
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  font-size: 16px;
+  font-family: Arial;
+  
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  outline: none;
+  
+  
+}
+
+.check-button{
+  border: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-family: Arial;
+  padding: 5px;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(74, 74, 218);
+
+}
+
+.check-button:hover{
+  background-color: rgb(74, 74, 218);
+  color: white;
+}
+.check-button:active{
+  opacity:0.7;
+}
+
+.error{
+  font-family: Arial;
+  color: red;
+  font-size: 10px;
+  margin-left: 5px;
+  padding: 0;
+}
+
+.input-error{
+  border-color: red;
+}
+
+.input-success{
+  border-color: green;
+}
